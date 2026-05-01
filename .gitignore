@@ -1,0 +1,4 @@
+data/memory.db
+models/model.gguf
+
+.DS_Store
