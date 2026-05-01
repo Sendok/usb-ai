@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB AI Studio</title>
+    <link rel="stylesheet" href="libs/prism.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <main class="chat-area">
+            <div id="messages"></div>
+            <div class="input-area">
+                <div class="input-box">
+                    <textarea id="userInput" placeholder="Tanya sesuatu kepada AI..." rows="1"></textarea>
+                    <button id="actionBtn" onclick="toggleAction()">➤</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Offline Libraries -->
+    <script src="libs/marked.min.js"></script>
+    <script src="libs/purify.min.js"></script>
+    <script src="libs/prism.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
